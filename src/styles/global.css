@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;700;800;900&display=swap');
+
+/*  -----------
+     VARIABLES 
+    ----------- */
+
+:root {
+    /* headers */
+    --h1-color : #222;
+    --h2-color : #222;;
+    --h4-color : #222;;    
+
+    /* nav */
+    --nav-background : #bec3d6;
+    --nav-background-sideleaf: #e7e9ee;
+    --nav-color-border-sideleaf: rgb(180, 180, 180);
+    --nav-color-shadow : rgba(0, 0, 0, 0.06);
+    --nav-color-button-active : #088178;
+
+    /* protagonist */
+    --protagonist-background : #d6d8eb;
+    --protagonist-color-button-text : black;    
+    --protagonist-color-letter-highlight : #088178;
+
+    /* products */
+    --product-section-background : #fff2e5;
+    --product-color-border-card : #cce7d0;
+    --product-color-overview : #606063;
+    --product-color-h5 : #1a1a1a;
+    --product-color-star : rgb(255,172,17);    
+    --product-color-price : #088178;    
+    --product-background-cart : #e8f6ea;
+    --product-color-cart : #088178;
+    --product-color-border-cart : #cce7d0;
+    --product-color-highlight-cart : rgb(255, 81, 81);
+    /* modal - product */
+    --product-m-opacity : rgba(0, 0, 0, 0.5);
+    --product-m-background : #FFFFFF;
+    --product-m-border : #cce7d0;
+    --product-m-shadow : rgba(0, 0, 0, 0.5);
+
+    /* modal - items in cart */
+    --pic-m-opacity : rgba(0, 0, 0, 0.5);
+    --pic-m-border : #cce7d0;
+    --pic-m-background : #FFFFFF;
+    --pic-m-border-total-section : rgb(208, 218, 223);
+    --pic-m-background-buy-button : #088178;
+    --pic-m-color-border-buy-button : #bbd4bf;
+    --pic-m-color-border-item : #bbd4bf; 
+    --pic-m-background-item : #e8f6ea;   
+    --pic-m-color-delete-button : rgb(78, 92, 99);
+    /* modal - thanks */
+    --thanks-m-opacity : rgba(0, 0, 0, 0.5);    
+    --thanks-m-background-1 : white;
+    --thanks-m-background-2 : #ECECEC;
+    --thanks-m-border : #cce7d0;    
+    --thanks-m-background-button : #088178;    
+    --thanks-m-color-border-button : #bbd4bf;
+
+    /* footer */
+    --footer-color-icon : #465b52;
+    --footer-color-icon-highlight : #088178;
+}
+
+/* GLOBAL */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--h1-color);
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: var(--h2-color);
+}
+
+h4 {
+    font-size: 20px;
+     color: var(--h4-color);
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pda-padding {
+    padding: 20px 80px;
+}
+
+body {
+    width: 100%;
+}

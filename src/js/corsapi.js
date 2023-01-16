@@ -1,0 +1,1 @@
+export let bkbox = '../../public/assets/images/protagonist_sweater.png';
